@@ -23,7 +23,7 @@ Python
 
 2. Web Scrapping
 ```
-    python .\web_scrapping.py   
+    python web_scrapping.py   
 ```
 
 The app runs on http://127.0.0.1:8000/docs#/
