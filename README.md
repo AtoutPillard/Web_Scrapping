@@ -6,6 +6,8 @@ A FastApi application that retrieve articles from https://techcrunch.com/ accord
 
 ## Prerequisites
 
+Windows environment
+
 Docker
 
 Python
