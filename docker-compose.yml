@@ -1,0 +1,17 @@
+version: "3.2"
+services:
+  data-consumer:
+    image: webscrapping_api
+    container_name: 'webscrapping_container'
+    ports:
+      - 8000:8000
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    depends_on:
+      - mongo
+  mongo:
+    image: mongo
+    container_name: 'mongo'
+    command: ["--bind_ip_all"]
+    ports:
+      - 27017:27017
